@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>QUIZ GAME</h1>
+
+    <div id="quizBox">
+
+      <h2 id="question">Question goes here</h2>
+
+      <div id="answerButtons">
+        <button class="answerBtn">Answer 1</button>
+        <button class="answerBtn">Answer 2</button>
+        <button class="answerBtn">Answer 3</button>
+        <button class="answerBtn">Answer 4</button>
+      </div>
+
+      <div id="bottomBar">
+        <p>Score: <span id="score">0</span></p>
+        <button id="nextBtn">NEXT</button>
+      </div>
+
+    </div>
+
+    <div id="endScreen" class="hidden">
+      <h2>QUIZ COMPLETE</h2>
+      <p>Your Score: <span id="finalScore"></span></p>
+      <button id="restartBtn">PLAY AGAIN</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
